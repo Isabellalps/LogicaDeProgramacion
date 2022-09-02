@@ -1,24 +1,41 @@
 <meta charset="UTF-8">
 
-
-HTML 
-<br>
-La edad de Christian es...
-<br>
-?
-
-<br>
-<br>
-
-JavaScript
-<br>
+<h1>Programa</h1>
 
 <script>
 	
-	document.write("El a;o de nacimiento de Christian es: ");
+	var anho = 2022; 
+
+	document.write("Nahomi tiene:" + (anho-2018) + " años");
 	document.write("<br>");
-	document.write(2022-25);
-	document.write("<br>")
-	document.write("El promedio de edad de Hera, Nahomi y Molly es: " + ((2+4+2/3)));
+	document.write("<br>");
+	document.write("Pirula tiene:" + (anho-2021) + " años");
+
+	anho = 2030;
+
+	document.write("<br>");
+	document.write("<br>");
+	document.write("Hera tiene:" + (anho-2020) + " años");
+	document.write("<br>");
+	document.write("<br>");	
+
+	anho = 2023;
+	document.write("Grisis tiene: " + (anho-2012) + " años")
+	document.write("<br>");
+	document.write("<br>");
+
+	var edadNahomi= 4;
+	var edadPirula= 1;
+	var edadHera= 10;
+	var edadGrisis= 11;
+
+	var nombre1 = "Nahomi";
+	var nombre2 ="Pirula";
+	var nombre3 = "Hera";
+	var nombre4 = "Grisis"
 	
-	</script>
+	promedio =(edadNahomi+edadHera+edadPirula+edadGrisis)/3
+
+	document.write("El promedio de las edades de " +nombre1 + " " + nombre2 + " " + nombre3 + " " + "y " + nombre4 + " es:" + Math.round(promedio));
+
+</script>
