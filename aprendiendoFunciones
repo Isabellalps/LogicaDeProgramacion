@@ -7,29 +7,33 @@
 	function saltarlinea() {
 
 		document.write("<br>");	
-		document.write("<br>");
+
+	}
+
+	function imprimir(frase){
+
+		document.write(frase)
+		saltarlinea();
 
 	}
 
 	var anho = 2022; 
 	var saltolinea = "<br>"
 
-	document.write("Nahomi tiene:" + (anho-2018) + " años");
+	imprimir("Nahomi tiene: " + (anho-2018) + " años");
 	
-	saltarlinea();
-
-	document.write("Pirula tiene:" + (anho-2021) + " años");
-
-	saltarlinea();
+	imprimir("Pirula tiene: " + (anho-2021) + " años");
 
 	anho = 2030;
 
-	document.write("Hera tiene:" + (anho-2020) + " años");
-	
-	saltarlinea();
+	imprimir("Holaa amigos");
+
+	//Este código calcula las edades de Hera, Pirula, Nahomi y Grisis
+
+	imprimir("Hera tiene: " + (anho-2020) + " años");
 	
 	anho = 2023;
-	document.write("Grisis tiene: " + (anho-2012) + " años")
+	imprimir("Grisis tiene: " + (anho-2012) + " años")
 	
 	var edadNahomi= 4;
 	var edadPirula= 1;
@@ -41,10 +45,9 @@
 	var nombre3 = "Hera";
 	var nombre4 = "Grisis"
 
-	saltarlinea();
-	
+		
 	promedio =(edadNahomi+edadHera+edadPirula+edadGrisis)/3
 
-	document.write("El promedio de las edades de " +nombre1 + " " + nombre2 + " " + nombre3 + " " + "y " + nombre4 + " es:" + Math.round(promedio));
+	imprimir("El promedio de las edades de " +nombre1 + " " + nombre2 + " " + nombre3 + " " + "y " + nombre4 + " es: " + Math.round(promedio));
 
 </script>
