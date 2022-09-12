@@ -24,4 +24,7 @@
 	
 
 	imprimir("El promedio del IMC calculado es de: " + (calcular_imc(71,1.66) + calcular_imc(80, 1.77)/2))
+	
+	
+	/*crear funciones objetivas que realicen un solo cálculo y nos retornen un valor y que se puedan reutilizar*/
 </script>
