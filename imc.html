@@ -17,12 +17,14 @@
 
 	}
 
-	function calcular_imc(peso,altura,nombre){
+	function calcular_imc(peso,altura){
 		imc = peso/(altura*altura);
-		imprimir("El IMC calculado de " + nombre + " es: " + imc);
-		
+		return imc;
 	}
 	
-	calcular_imc(71, 1.66, "Isabella");
-	
+	var imcIsa = calcular_imc(71,1.66);
+	var imcCesar= calcular_imc(80, 1.77);
+
+	imprimir("El IMC calculado de Isa y Cesar tiene un promedio de: " + ((imcIsa+imcCesar)/2));
+
 </script>
