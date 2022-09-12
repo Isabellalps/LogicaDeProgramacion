@@ -1,0 +1,27 @@
+<meta charset="UTF=8">
+
+<h1> Índice de masa corporal </h1>
+
+<script>
+	function saltarlinea(){
+
+		document.write("<br>");
+		document.write("<br>");
+
+	}
+
+	function imprimir(frase){
+
+		document.write(frase);
+		saltarlinea();
+
+	}
+
+	function calcular_imc(peso,altura){
+		return (peso/(altura*altura));
+	
+	}
+	
+
+	imprimir("El promedio del IMC calculado es de: " + (calcular_imc(71,1.66) + calcular_imc(80, 1.77)/2))
+</script>
